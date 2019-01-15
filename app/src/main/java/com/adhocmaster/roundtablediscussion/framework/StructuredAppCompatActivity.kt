@@ -4,7 +4,9 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.adhocmaster.roundtablediscussion.R
 
-abstract class StructuredAppCompatActivity: AppCompatActivity(), StructuredActivity {
+abstract class StructuredAppCompatActivity:
+        AppCompatActivity(),
+        StructuredActivity {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
